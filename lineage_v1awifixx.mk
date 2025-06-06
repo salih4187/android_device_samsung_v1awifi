@@ -26,7 +26,7 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := v1awifi
-PRODUCT_NAME := lineage_v1awifi
+PRODUCT_NAME := lineage_v1awifixx
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-P900
 PRODUCT_MANUFACTURER := samsung
@@ -34,7 +34,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=v1awifi \
+    PRODUCT_NAME=v1awifixx \
     PRIVATE_BUILD_DESC="v1awifixx-user 5.0.2 LRX22G P900XXS0BRI1 release-keys"
 
 BUILD_FINGERPRINT := samsung/v1awifixx/v1awifi:5.0.2/LRX22G/P900XXS0BRI1:user/release-keys
