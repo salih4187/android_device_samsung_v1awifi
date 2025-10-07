@@ -26,7 +26,7 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := v1awifi
-PRODUCT_NAME := lineage_v1awifixx
+PRODUCT_NAME := lineage_v1awifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-P900
 PRODUCT_MANUFACTURER := samsung
