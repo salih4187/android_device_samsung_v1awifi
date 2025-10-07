@@ -30,6 +30,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.lineage.build.vendor_security_patch=2016-05-01
 
+# Properties
+-include $(LOCAL_PATH)/system_prop.mk
+
 # Inherit from v1a-common
 $(call inherit-product, device/samsung/v1a-common/device-common.mk)
 
