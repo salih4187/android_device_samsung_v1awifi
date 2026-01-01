@@ -1,9 +1,6 @@
 # All unpinned blobs are from P900XXS0BRI1
 # Vendor security patch level 2016-05-01
 
-# DRM
-lib/liboemcrypto.so:vendor/lib/liboemcrypto.so
-
 # GPS
 bin/gpsd:vendor/bin/gpsd
 lib/hw/gps.default.so:vendor/lib/hw/gps.universal5420.so
